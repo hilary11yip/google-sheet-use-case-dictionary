@@ -1,0 +1,3 @@
+=SEQUENCE(
+  COUNTA([data entry range, e.g. A2:A])
+)
