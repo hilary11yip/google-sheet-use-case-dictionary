@@ -1,0 +1,3 @@
+=ARRAYFORMULA(
+  PROPER(CLEAN(TRIM([data range])))
+)
