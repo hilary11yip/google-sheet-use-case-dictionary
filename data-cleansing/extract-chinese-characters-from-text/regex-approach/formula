@@ -1,0 +1,6 @@
+//make sure you've added the script to the Google Sheet
+=EXTRACTCHINESECHARACTERS(
+  ADDRESS(ROW([data start cell]), COLUMN([data start cell]))
+  & ":" 
+  & ADDRESS(ROWS([data range, e.g. A:A]), COLUMN([data start cell]))
+)
