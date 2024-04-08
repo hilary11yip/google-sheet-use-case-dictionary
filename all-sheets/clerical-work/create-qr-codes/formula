@@ -1,0 +1,5 @@
+=ARRAYFORMULA(
+  IF(NOT(ISURL([QR code URL range])), 
+    "", 
+    IMAGE("https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl="&[QR code URL range]))
+  )
