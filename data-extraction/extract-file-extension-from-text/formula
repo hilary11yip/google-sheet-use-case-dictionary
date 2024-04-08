@@ -1,0 +1,3 @@
+=ARRAYFORMULA(
+  REGEXEXTRACT([text data range], ".(\w+)\?"))
+)
