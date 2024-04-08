@@ -1,0 +1,6 @@
+=QUERY(
+  [data range], 
+  "SELECT [* / specific columns / aggregated columns] " & 
+  "WHERE [date column] >= DATE '"&TEXT(DATEVALUE([start date cell]),"yyyy-mm-dd") & "'" 
+  & " AND [date column] <= DATE '"&TEXT(DATEVALUE([end date cell]),"yyyy-mm-dd") & "'"
+)
