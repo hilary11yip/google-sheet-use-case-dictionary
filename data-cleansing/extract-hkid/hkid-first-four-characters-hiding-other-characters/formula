@@ -1,0 +1,3 @@
+=ARRAYFORMULA(
+  IFERROR( LEFT([full hkid data range], 4) & REPT("*", LEN([full hkid data range]) - 4) )
+)
