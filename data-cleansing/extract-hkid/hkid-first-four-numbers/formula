@@ -1,0 +1,3 @@
+=ARRAYFORMULA(
+  IFERROR(REGEXEXTRACT([full hkid data range], "\d{4}"))
+)
