@@ -1,4 +1,4 @@
-=ARRAYFORMULA(
+= ARRAYFORMULA(
   LEFT([full hkid data range], LEN([full hkid data range]) - 1) 
   &"("& RIGHT([full hkid data range], 1) &")"
 )
