@@ -1,0 +1,2 @@
+= ARRAYFORMULA(
+  IMAGE([image URLs],1) )
