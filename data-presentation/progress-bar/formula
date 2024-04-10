@@ -1,0 +1,8 @@
+= MAP([numbers], [base numbers], 
+  LAMBDA(numbers, base_numbers,
+    SPARKLINE( IFERROR (numbers / base_numbers),
+      {"charttype","bar";
+        "max", 1; 
+        "nan", "ignore"; 
+        "empty", "ignore"}
+))))
