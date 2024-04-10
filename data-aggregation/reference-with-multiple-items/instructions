@@ -1,0 +1,10 @@
+1. Add a new column in both data reference table and lookup table to concatenate all the items for referencing
+= MAP([range1], [range2], [range3], 
+  LAMBDA(range1, range2, range3,
+    TEXTJOIN("", TRUE, range1, range2, range3)
+    )
+)
+2. Add a new column in lookup table to lookup with the reference key
+= ARRAYFORMULA(
+  XLOOKUP([reference key range in lookup table], [reference key range in data reference table], [desired result in lookup table])
+)
