@@ -1,4 +1,4 @@
-=UNIQUE(
+= UNIQUE(
   {[data range 1]},
   {[data range 2]},
   {[data range 3]}
