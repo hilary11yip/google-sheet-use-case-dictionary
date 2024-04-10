@@ -1,0 +1,11 @@
+//this formula can be used with optional criteria
+= IFERROR(
+  QUERY([data source range], 
+    "SELECT * "&
+    "WHERE " & 
+    TEXTJOIN(" or ", TRUE, 
+      IF([criteria A tickbox] = FALSE, "", "[Column] LIKE '%"& [criteria A content] &"%'"), 
+      IF([criteria B tickbox] = FALSE, "", "[Column] LIKE '%"& [criteria B content] &"%'"),
+      IF([criteria C tickbox] = FALSE, "", "[Column] LIKE '%"& [criteria C content] &"%'")
+    )
+  ))
