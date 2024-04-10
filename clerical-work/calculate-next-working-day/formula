@@ -1,0 +1,3 @@
+= ARRAYFORMULA(
+  WORKDAY([input dates], [number of days to add], [public holidays])
+)
