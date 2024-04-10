@@ -1,3 +1,0 @@
-= ARRAYFORMULA(
-  IF( REGEXMATCH(TEXT([numbers], "0"), "[0-9]+"), ROMAN([numbers]), ARABIC([numbers]))
-)
