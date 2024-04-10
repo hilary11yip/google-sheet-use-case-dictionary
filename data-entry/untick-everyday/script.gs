@@ -2,7 +2,6 @@
 
 function untickEveryThing(){
   var sheetName = ['Sheet1', 'Sheet2'];
-
   var startRow = 4;
 
   for(var i = 0; i < sheetName.length; i++){
@@ -11,6 +10,5 @@ function untickEveryThing(){
 
       for(var j = startRow ; j <= lastrow; j++){
         range.getRange(j, 1).setValue(false);}
-
     }
 }
