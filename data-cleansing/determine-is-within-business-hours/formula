@@ -1,0 +1,3 @@
+=ARRAYFORMULA(
+ ISBETWEEN([time], [start time cell], [end time cell], TRUE, TRUE)
+)
