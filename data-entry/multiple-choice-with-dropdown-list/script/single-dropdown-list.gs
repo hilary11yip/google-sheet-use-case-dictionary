@@ -21,9 +21,7 @@ function onEdit(e) {
 
       updateSelectedValues(newItem, allSelectedValues, sheet, allSelectedValuesRow, allSelectedValuesCol);
     }
-
 }
-
 
 function addNewChoice(newItem, allSelectedValues) {
   var result = "";
