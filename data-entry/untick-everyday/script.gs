@@ -3,7 +3,7 @@
 function doUntickEveryCell(){
   var sheetName = 'Sheet1';
   var startRow = 4;
-  var range = SpreadsheetApp.getActive().getSheetByName(sheetName[i]);
+  var range = SpreadsheetApp.getActive().getSheetByName(sheetName);
   var lastrow = lastRowForColumn(range, 1);
 
   for(var j = startRow ; j <= lastrow; j++){
